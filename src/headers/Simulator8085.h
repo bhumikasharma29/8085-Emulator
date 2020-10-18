@@ -9,8 +9,9 @@ private:
     short int sp; // Stack pointer: 16 bits
     short int start;
 
+    bool setRegister(char, short int);
+
 public:
     Simulator8085();
-    bool setRegister(char, short int);
 };
 #endif
