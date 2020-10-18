@@ -1,6 +1,4 @@
-#include <iostream>
-using namespace std;
-
-class Simulator8085
+int main()
 {
-};
+    return 0;
+}
